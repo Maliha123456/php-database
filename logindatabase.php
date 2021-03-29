@@ -21,7 +21,7 @@ $dbname = "php1";
     $result = mysqli_query($conn, $sql);
     $row = mysqli_fetch_assoc($result);
 if(count($row) > 0){
-      header('location: home.html');
+      header('location: index.html');
     }else{
       echo  "Invalid user .....try again";
  		
